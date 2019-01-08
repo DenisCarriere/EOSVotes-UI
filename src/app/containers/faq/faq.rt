@@ -5,8 +5,10 @@
 
     <Containers.Header rt-props="this.props" />
 
+    <i18next.Trans>BLAH</i18next.Trans>
+
     <section class="section about">
-    
+
         <div class="container">
 
         <h2 class="title">New to EOS?</h2>
@@ -25,13 +27,17 @@
         <br/>
 
         <hr id="referendum-content"></hr>
-        
+
         <br/>
+
+
 
         <h2 class="title">What is Referendum?</h2>
 
+
+
         <p>A vote in which EOS token holders are asked to decide on a question that impacts a change to the EOS Constitution, system-level Ricardian Contracts, or the EOSIO codebase. A simple proposal or poll allows the EOS community's voice to be heard on specific matters without changing any contracts or system code. A referendum, if passed, should produce an actionable result to enact a change on the EOS mainnet, as decided by the EOS community.</p>
-        
+
         <p>To be an effective, decentralized, yet self-governed blockchain, the EOS codebase and governing documents can be modified through token holder consensus by way of referendum through proposing, voting, and ratification. This principle is found in the <a href="https://github.com/EOS-Mainnet/governance/blob/master/eosio.system/eosio.system-clause-constitution-rc.md#article-xi---amending" style="color:#cfbf55;text-decoration: underline; font-weight:bold;">EOS Constitution</a>.</p>
 
         <p><strong>Article XI</strong> - <strong>Amending</strong> - This Constitution and its subordinate documents shall not be amended except by a vote of the token holders with no less than 15% vote participation among tokens and no fewer than 10% more Yes than No votes, sustained for 30 continuous days within a 120 day period. <a href="https://github.com/EOSIO/eos/blob/5068823fbc8a8f7d29733309c0496438c339f7dc/constitution.md" style="color:#cfbf55;text-decoration: underline; font-weight:bold;">Reference</a></p>
@@ -47,12 +53,12 @@
         <p>Ricardian Contracts are contracts that are both human and machine readable. They are presented to a user to provide the intention of the associated <strong>Smart Contract</strong>. When interacting with a proposal on the Referendum, you are agreeing to a Ricardian Contract for that action. Depending on the action you take, the appropriate Ricardian Contract will display in Scatter or your preferred UI:</p>
 
         <br/>
-        
+
         <ul>
         <li><a href="https://github.com/eoscanada/eosio.forum/blob/master/abi/forum.expire_rc.md">- Expire</a></li>
 
         <li><a href="https://github.com/eoscanada/eosio.forum/blob/master/abi/forum.propose_rc.md">- Propose</a></li>
-        
+
         <li><a href="https://github.com/eoscanada/eosio.forum/blob/master/abi/forum.unvote_rc.md">- Unvote</a></li>
 
         <li><a href="https://github.com/eoscanada/eosio.forum/blob/master/abi/forum.vote_rc.md">- Vote</a></li>
@@ -86,7 +92,7 @@
         <br/>
 
         <h2 class="title">Submitting a Proposal</h2>
-        
+
         <p>EOSvotes.io doesn't currently support proposal submissions. Our main objective is to educate token holders on the value of voting and to facilitate an effortless voting experience. Crafting a successful proposal that's technically feasible requires advanced knowledge of the EOSIO software and governance system. Over time, we hope to build in features to help facilitate that process for the average user. In the meantime, it is still possible for anyone to submit a proposal using one of the other various tools or wallets that support this functionality. We've included some guidelines below.</p>
 
         <br/>
@@ -113,7 +119,7 @@
         <br/>
 
         <h2 class="title">Simple Proposal Guidelines</h2>
-        
+
         <p>Community consensus through polls or proposals are a great way to get a feel for what the community thinks about specific topics, ideas, events or happenings. Be respectful, and kind with your simple proposals. Slander and/or libel defamatory statements about other token holders are not productive to the community.</p>
 
         <br/>
@@ -127,7 +133,7 @@
 
         <ul>
         <li>1. Rallying community support beforehand, and use what the community wants/needs to lobby a Block Producer for support.</li>
-        
+
         <li>2. Use a Block Producer to submit your proposal.
 
         <li>3. Multi-language proposals are up to the submitter to provide and are recommended.</li></ul>
@@ -136,11 +142,11 @@
 
         <br/>
         <br/>
-        
+
         <h2 class="title">Proposal User Interfaces</h2>
-        
+
         <p>In addition to eosvotes.io there are a number of other community maintained propsosal contract user interfaces that can be used for voting on proposals. This is a list of all known user interfaces:</p>
-        
+
         <ul>
             <li>- <a href="https://eosvotes.io" target="_blank">https://eosvotes.io (this site)</a></li>
 
@@ -149,17 +155,17 @@
             <li>- <a href="https://bloks.io/vote/referendums" target="_blank">https://bloks.io/vote/referendums</a></li>
 
             <li>- <a href="https://eos-forum.org/#/referendum" target="_blank">https://eos-forum.org/#/referendum</a></li>
-            
+
             <li>- <a href="https://eosauthority.com/polls" target="_blank">https://eosauthority.com/polls</a></li>
-            
+
             <li>- <a href="https://eostoolkit.io/community/forum/vote" target="_blank">https://eostoolkit.io/community/forum/vote</a></li>
-            
+
             <li>- <a href="https://github.com/eoscanada/eosc" target="_blank">https://github.com/eoscanada/eosc/releases (command line application)</a></li>
-            
+
             <li>- <a href="https://github.com/greymass/eos-voter/releases" target="_blank">https://github.com/greymass/eos-voter/releases (electron windowed wallet application)</a></li>
-                        
+
         </ul>
-        
+
         <br/>
 
         </div>

@@ -21,6 +21,11 @@ class Header extends React.Component {
     });
   }
 
+  changeLanguage(lng) {
+    console.log(lng.target.value);
+    this.props.i18n.changeLanguage(lng.target.value);
+  }
+
   render() {
     return require('./header.rt').call(this);
   }

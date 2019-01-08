@@ -9,10 +9,13 @@
   },
   "dependencies": {
     "hammerjs": "^2.0.8",
+    "i18next": "^13.1.0",
+    "i18next-browser-languagedetector": "^2.2.4",
     "immutable": "^3.8.2",
     "promise-polyfill": "^8.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-i18next": "^9.0.2",
     "react-markdown": "^3.6.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "*",

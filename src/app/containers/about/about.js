@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { withNamespaces } from 'react-i18next';
 import { createStructuredSelector } from 'reselect';
 import ScatterJS from 'scatter-js/dist/scatter.esm';
 import { loadScatter, getIdentity } from 'store/scatter/actions';
@@ -39,7 +40,7 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(
+export default withNamespaces('translations')(connect(
   mapStateToProps,
   mapDispatchToProps
-)(About);
+)(About));
