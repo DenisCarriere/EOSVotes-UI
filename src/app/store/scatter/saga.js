@@ -20,7 +20,7 @@ export function* voteProposal(action) {
       tx = {
         actions: [
           {
-            account: 'eosforumrcpp',
+            account: 'eosio.forum',
             name: 'unvote',
             data: {
               voter: identity.name,
@@ -35,7 +35,7 @@ export function* voteProposal(action) {
       tx = {
         actions: [
           {
-            account: 'eosforumrcpp',
+            account: 'eosio.forum',
             name: 'vote',
             data: {
               voter: identity.name,
