@@ -40,7 +40,7 @@
                     </span>
                     <select class="header__language dropdown show-for-medium" onChange="e => this.changeLanguage(e)">
                         <option value="en">en</option>
-                        <option value="zh">zh</option>
+                        # <option value="zh">zh</option>
                     </select>
                     <span onClick="e => this.open('search')" class="hide-for-medium hoverable">
                         <i class="header__icon icon icon-search" rt-if="!this.props.filters" />
