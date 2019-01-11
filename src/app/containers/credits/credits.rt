@@ -11,7 +11,37 @@
 
             <h1 class="title" style="padding-bottom:30px;">Credits</h1>
 
-            <h2 style="font-size:22px;">Thoughts on the Referendum System by those that helped build it...</h2> 
+            <h1 class="title" style="font-size:30px;padding-top:20px;padding-bottom:20px;">eosio.forum smart contract and EEP</h1>
+                <p>Josh Kauffman (EOS Canada, dfuse)</p>
+                <p>Alexandre Bourget (EOS Canada, dfuse)</p>
+                <p>Matthieu Vachon (EOS Canada, dfuse)</p>
+
+            <h1 class="title" style="font-size:30px;padding-top:20px;padding-bottom:20px;">Vote tally system</h1>
+            <ul>
+                <li>Denis Carriere (EOS Nation)</li>
+            </ul>
+
+            <h1 class="title" style="font-size:30px;padding-top:20px;padding-bottom:20px;">EOSvotes.io UI design and development</h1>
+            <ul>
+                <li>Steve Floyd (BitGate, Fractal)</li>
+                <li>Nathan Rempel (KARMA, GenerEOS)</li>
+            </ul>
+            <h1 class="title" style="font-size:30px;padding-top:20px;padding-bottom:20px;">DPoS insights and wallet integration support</h1>
+            <ul>
+                <li>Aaron Cox (Greymass)</li>
+            <ul>
+            <h1 class="title" style="font-size:30px;padding-top:20px;padding-bottom:20px;">Content strategy</h1>
+            <ul>
+                <li>Anna Taylor (Fractal, Empower Women Proxy)</li>
+            </ul>
+            <h1 class="title" style="font-size:30px;padding-top:20px;padding-bottom:20px;">Project management</h1>
+            <ul>
+                <li>Daniel Keyes (EOS Nation)</li>
+            </ul>
+
+            <hr>
+
+            <h1 class="title" style="font-size:30px;padding-top:20px;padding-bottom:20px;">Thoughts on the Referendum System by those that helped build it...</h1>
 
             <p><a href="https://steemit.com/eos/@greymass/the-3-pieces-of-the-eos-referendum-system">https://steemit.com/eos/@greymass/the-3-pieces-of-the-eos-referendum-system</a></p>
 
